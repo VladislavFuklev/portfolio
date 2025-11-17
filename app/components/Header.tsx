@@ -15,9 +15,9 @@ export default function Header() {
 		<header className='sticky top-0 z-40 backdrop-blur supports-backdrop-filter:bg-white/60 dark:supports-backdrop-filter:bg-black/40 border-b border-black/10 dark:border-white/10'>
 			<div className='mx-auto flex max-w-5xl items-center justify-between px-6 sm:px-8 md:px-10 py-4'>
 				<Link href='#' className='font-semibold tracking-tight text-xl'>
-					<span className='bg-linear-to-r from-zinc-900 via-zinc-600 to-zinc-900 bg-clip-text text-transparent dark:from-zinc-100 dark:via-zinc-400 dark:to-zinc-100'>
-						Портфоліо
-					</span>
+					<div className='w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white font-semibold'>
+						VF
+					</div>
 				</Link>
 				<nav className='hidden md:flex gap-6 text-sm'>
 					{NAV.map(i => (
