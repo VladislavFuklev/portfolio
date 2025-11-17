@@ -1,8 +1,13 @@
 export default function Footer() {
 	return (
-		<footer className='mt-16 border-t border-zinc-200 py-8 text-sm text-zinc-600 dark:border-zinc-800 dark:text-zinc-400'>
-			<div className='mx-auto max-w-5xl px-6 sm:px-8 md:px-10'>
-				© {new Date().getFullYear()}
+		<footer className='border-t border-slate-200 mt-8'>
+			<div className='max-w-6xl mx-auto p-6 md:px-8 flex flex-col md:flex-row items-center justify-between text-sm text-slate-500'>
+				<p>
+					© {new Date().getFullYear()} Владислав Фуклев — Frontend Developer
+				</p>
+				<div className='mt-3 md:mt-0'>
+					Next.js · Tailwind
+				</div>
 			</div>
 		</footer>
 	)
