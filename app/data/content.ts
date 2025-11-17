@@ -1,6 +1,7 @@
 export type Contact = {
 	label: string
 	href: string
+	copy?: string
 }
 
 export type Project = {
@@ -21,7 +22,7 @@ export const PROFILE = {
 }
 
 export const CONTACTS: Contact[] = [
-	{ label: 'Email', href: 'vladfyklev@gmail.com' },
+	{ label: 'Email', href: 'vladfyklev@gmail.com', copy: 'vladfyklev@gmail.com' },
 	{ label: 'GitHub', href: 'https://github.com/VladislavFuklev' },
 	{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/vladislavfyklev/' },
 	{ label: 'Telegram', href: 'https://t.me/Fucklevv' },
