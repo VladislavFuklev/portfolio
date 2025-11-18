@@ -5,9 +5,6 @@ export default function Footer() {
 				<p>
 					© {new Date().getFullYear()} Владислав Фуклев — Frontend Developer
 				</p>
-				<div className='mt-3 md:mt-0'>
-					Next.js · Tailwind
-				</div>
 			</div>
 		</footer>
 	)

@@ -59,4 +59,12 @@ export const PROJECTS: Project[] = [
 		link: 'https://nextapp-mu-gilt.vercel.app/dashboard',
 		repo: 'https://github.com/VladislavFuklev/nextapp',
 	},
+	{
+		title: 'Віджет погоди',
+		description:
+			'Дашборд погоди з авторизацією, вибором міста та метриками. Пошук міст (Open‑Meteo Geocoding): вибір зі списку — перемикає поточне місто та додає його до вибору міст. Зміна теми (світла/темна).',
+		tech: ['Next.js', 'TypeScript', 'NextAuth (JWT, credentials)', 'React Query', 'Tailwind', 'Radix UI', 'Recharts','React-hook-form + zod'],
+		link: 'https://weather-widget-six-smoky.vercel.app/signin',
+		repo: 'https://github.com/VladislavFuklev/admin-dashboard',
+	},
 ]
