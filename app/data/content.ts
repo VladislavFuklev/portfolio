@@ -67,4 +67,12 @@ export const PROJECTS: Project[] = [
 		link: 'https://weather-widget-six-smoky.vercel.app/signin',
 		repo: 'https://github.com/VladislavFuklev/admin-dashboard',
 	},
+	{
+		title: 'Персональний фінансовий трекер',
+		description:
+			'Мінімалістичний веб-додаток для управління особистими фінансами з акцентом на транзакції та аналітику. Дозволяє відстежувати доходи/витрати, автоматично розраховує баланс і коефіцієнт заощаджень за поточний місяць. Реалізовано повний CRUD для транзакцій з системою категорій, розширеною фільтрацією (тип, категорія, діапазон дат, пошук) та адаптивним UI з мобільним меню.',
+		tech: [ "Next.js", "React 19", "TypeScript", "Tailwind CSS", "Next.js Server Actions", "NextAuth.js v5", "Prisma ORM", "Vercel Postgres (PostgreSQL)", "React Hook Form", "Zod", "Jest" ],
+		link: 'https://dashboard-omega-sandy-89.vercel.app/',
+		repo: 'https://github.com/VladislavFuklev/pet',
+	}
 ]
